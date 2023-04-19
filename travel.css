@@ -1,0 +1,825 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa:wght@300&family=Poppins:wght@100&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa:wght@300&family=Nunito:wght@200&family=Poppins:wght@100&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa:wght@300&family=Dancing+Script:wght@600&family=Nunito:wght@200&family=Poppins:wght@100&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa&family=Dancing+Script:wght@600&family=Nunito:wght@200&family=Poppins:wght@100&family=Rubik+Iso&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa&family=Dancing+Script:wght@600&family=Nunito:wght@200&family=Pacifico&family=Poppins:wght@100&family=Rubik+Iso&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa&family=Dancing+Script:wght@600&family=Delicious+Handrawn&family=Nunito:wght@200&family=Pacifico&family=Poppins:wght@100&family=Rubik+Iso&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa&family=Dancing+Script:wght@600&family=Delicious+Handrawn&family=Nunito:wght@200&family=PT+Serif&family=Pacifico&family=Poppins:wght@100&family=Rubik+Iso&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa&family=Dancing+Script:wght@600&family=Delicious+Handrawn&family=Nunito:wght@200&family=PT+Serif&family=Pacifico&family=Poppins:wght@100&family=Raleway:wght@100&family=Rubik+Iso&family=Tajawal:wght@200&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Comfortaa&family=Dancing+Script:wght@600&family=Poppins&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+#home {
+    height: 750px;
+    width: 100%;
+    /* background-image: url(./img/pexels-caroline-cagnin-2007401.jpg);
+    
+background-size: cover;
+background-attachment: fixed;
+animation: slide 20s infinite;
+}
+
+
+@keyframes slide{
+25%{
+    background-image: url(./img/pexels-caroline-cagnin-2007401.jpg);
+
+}
+
+50%{
+    background-image: url(./img/backpacker-standing-sunrise-viewpoint-ja-bo-village-mae-hong-son-province-thailand.jpg);
+
+} */
+
+}
+
+
+
+/* ********************************************************************** */
+
+
+
+#homefront {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12, 3, 51, 0.088), rgba(12, 3, 51, 0.088));
+    position: relative;
+    display: flex;
+    padding: 0 60%;
+
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+/* #navbar{
+    position: absolute;
+    margin-left: 80px;
+}  */
+
+
+#navbar {
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#navbar ul li a:hover {
+    color: black;
+}
+
+
+
+
+.content h1 {
+    color:maroon;
+    font-size: 60px;
+    margin-top: 380px;
+    margin-left: -650px;
+    transition: 0.5s;
+    font-family: 'Raleway', sans-serif;
+position: absolute;
+
+
+
+}
+
+.content h1:hover {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+#name {
+    font-size: 38px;
+
+    font-family: 'Poppins', sans-serif;
+    color: rgba(160, 81, 45, 0.96);
+    /* color: rgba(128, 0, 0, 0.886); */
+}
+
+
+
+
+
+
+
+/* ************************************************************************************************ */
+
+
+
+
+
+
+
+
+
+
+/* international photo section  */
+
+
+#international {
+    height: 600px;
+    width: 100%;
+
+}
+
+
+
+#inthead {
+    /* margin-top: 60px;
+    margin-left: 500px;
+    margin-bottom: 50px; */
+    text-align: center;
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Poppins', sans-serif;
+    color: maroon;
+    text-shadow: 10px 10px 10px rgba(175, 163, 159, 0.603);
+
+}
+
+#international .row {
+    margin-top: 80px;
+}
+
+#spain {
+    margin-left: 230px;
+    box-shadow: 10px 10px 10px rgba(175, 163, 159, 0.401);
+
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.col-6 img:hover {
+    transform: scale(1.1);
+}
+
+
+#turkey {
+    border-radius: 5px;
+    margin-left: 230px;
+    box-shadow: 10px 10px 10px rgba(175, 163, 159, 0.401);
+
+}
+
+#morrocow {
+    border-radius: 5px;
+    margin-left: 130px;
+    box-shadow: 10px 10px 10px rgba(175, 163, 159, 0.401);
+
+}
+
+#island {
+    margin-top: -80px;
+    margin-left: 230px;
+    box-shadow: 10px 10px 10px rgba(175, 163, 159, 0.401);
+
+    border-radius: 5px;
+
+}
+
+#china {
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 130px;
+    box-shadow: 10px 10px 10px rgba(175, 163, 159, 0.401);
+
+}
+
+
+#egypt {
+    box-shadow: 10px 10px 10px rgba(175, 163, 159, 0.401);
+
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 130px;
+}
+
+
+/* honeymoon packages ********************************************************************/
+
+
+#honeymoon {
+    height: 750px;
+    width: 100%;
+    background-image: url(./img/3765273_1991562_Freepik.jpg);
+    background-size: contain;
+}
+
+#honeymoonhead {
+    margin-top: 100px;
+    text-align: center;
+    /* color: #666; */
+    color: maroon;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 10px 10px 10px rgba(175, 163, 159, 0.603);
+
+}
+
+#honey1 {
+    margin-top: 50px;
+
+}
+
+
+#honey2 {
+    margin-top: 50px;
+
+}
+
+
+#honey3 {
+    margin-top: 50px;
+
+}
+
+#honey4 {
+    margin-top: 50px;
+
+}
+
+
+
+#honeymoon .card {
+
+    box-shadow: 10px 10px 10px rgba(175, 163, 159, 0.784);
+}
+
+
+
+/* india section  */
+
+#india {
+    height: 850px;
+    width: 100%;
+
+}
+
+#indiahead {
+    text-align: center;
+    margin-bottom: 50px;
+    color: maroon;
+    text-shadow: 10px 10px 10px rgba(175, 163, 159, 0.603);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#chead1 {
+    font-size: 50px;
+}
+
+/* *****************************************kerala section************************ */
+
+#kerala {
+    height: 750px;
+    width: 100%;   
+    margin-top: 150px;
+    
+
+}
+
+#kerala h1 {
+
+    font-family: 'Poppins', sans-serif;
+    color: green;
+    text-shadow: 10px 10px 10px rgba(175, 163, 159, 0.603);
+    margin-left: 30px;
+
+}
+
+#kerala p {
+    margin-left: 30px;
+}
+
+#kerala .card {
+    width: 250px;
+    margin-left: 30px;
+
+}
+
+
+
+
+
+
+button {
+    padding: 1.3em 3em;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #23c483;
+    -webkit-box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+            box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    -webkit-transform: translateY(-7px);
+        -ms-transform: translateY(-7px);
+            transform: translateY(-7px);
+  }
+  
+  button:active {
+    -webkit-transform: translateY(-1px);
+        -ms-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+
+
+
+
+
+
+
+
+
+
+
+#kerala .col-6 p {
+    padding-right: 10px;
+
+}
+
+iframe {
+    margin-left: 20px;
+
+}
+
+
+
+
+/* ***************************************************************service section**************  */
+
+
+#service {
+    height: 500px;
+    width: 100%;
+
+
+}
+
+#service .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+#service .col-4 {
+    height: 300px;
+    width: 300px;
+
+    /* border: 1px solid; */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* border-radius: 150px; */
+}
+
+#service .col-4 h4 {
+    font-size: 20px;
+    /* text-align: center; */
+    padding-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: darkslategrey;
+}
+
+#service h1 {
+    color: maroon;
+    text-shadow: 10px 10px 10px rgba(175, 163, 159, 0.603);
+    font-family: 'Poppins', sans-serif;
+}
+
+#service img:hover {
+    transform: scale(1.1);
+}
+
+
+/* **********************************************************form section*********************************************** */
+
+#form {
+    height: 600px;
+    width: 100%;
+
+}
+
+
+#form .container {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 50px;
+    background-image: url(./img/honeymoon-concept-illustration_114360-8870.avif);
+background-size: cover;
+
+}
+
+#form h1 {
+    text-align: center;
+    color: maroon;
+    text-shadow: 10px 10px 10px rgba(175, 163, 159, 0.603);
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 80px;
+}
+
+
+/* @media only screen and (max-width:850px)  */
+
+
+@media (min-aspect-ratio:16/9) {
+
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+}
+
+
+@media (max-aspect-ratio:16/9) {
+
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:850px) {
+
+#name{
+
+    font-size: 25px;
+}
+    .content h1 {
+        font-size: 40px;
+        margin-left: -180px;
+        margin-top: 150px;
+
+    }
+
+
+
+    #international{
+        margin-top: -140px;
+    }
+
+
+    #international .row {
+        position: relative;
+        display: block;
+        margin-left: 10px;
+
+    }
+
+
+
+
+    #spain {
+        margin-left: 20px;
+        width: 280px;
+
+    }
+
+
+    #island {
+        margin-left: 20px;
+        width: 280px;
+    }
+
+    #turkey {
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 280px;
+
+    }
+
+
+    #egypt {
+
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 280px;
+    }
+
+
+    #morrocow {
+
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 280px;
+    }
+
+
+    #china {
+
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 280px;
+    }
+
+    #honeymoon {
+        width: 350px;
+        /* height: 2210px; */
+        margin-top: 350px;
+        background-image: none;
+    }
+
+
+    #honeymoon .container {
+        margin-top: 700px;
+        /* position: relative; */
+    }
+
+
+    #honeymoon .row {
+        /* position: absolute; */
+        margin-left: 30px;
+    }
+
+
+
+    #india {
+        margin-top: 1500px;
+        width: 350px;
+        margin-left: 10px;
+    }
+
+
+    #indiahead {
+        margin-left: 10px;
+    }
+
+
+
+    #kerala {
+        margin-top: 450px;
+    }
+
+    iframe {
+        width: 300px;
+        margin-left: 30px;
+        margin-top: 30px;
+    
+    }
+
+
+
+    #kerala .col-md-6 img {
+        width: 350px;
+    }
+
+
+    #service {
+        margin-top: 1150px;
+    }
+
+
+
+
+    #service .container .row .col-4 img {
+        margin-left: 80px;
+        height: 150px;
+
+
+    }
+
+
+    #service .container .row .col-4 h4{
+        margin-left: 60px;
+        
+    }
+
+
+
+
+    #form {
+        margin-top: 600px;
+    }
+
+
+
+
+
+    #footer {
+        margin-top: 300px;
+    }
+
+
+
+}
+
+
+
+
+
+   /* @media( max-width:700px) {
+
+    .content h1 {
+        font-size: 40px;
+        margin-left: -180px;
+        margin-top: 150px;
+
+    }
+
+
+
+    #international .row {
+        position: relative;
+        display: block;
+        margin-left: 10px;
+        margin-top: -180px;
+
+    }
+
+
+
+
+    #spain {
+        margin-left: 10px;
+        width: 300px;
+    }
+
+
+    #island {
+        margin-left: 350px;
+        margin-top: -430px;
+        width: 300px;
+    }
+
+    #turkey {
+        margin-left: 10px;
+        margin-top: -80px;
+        width: 300px;
+
+    }
+
+
+    #egypt {
+
+        margin-left: 350px;
+        margin-top: -230px;
+        width: 300px;
+    }
+
+
+    #morrocow {
+
+        margin-left: 350px;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+
+    #china {
+
+        margin-left: 10px;
+        margin-top: -220px;
+        width: 300px;
+    }
+
+
+
+    #honeymoon .container {
+        margin-top: 80px;
+        position: relative;
+    }
+
+
+    #honeymoon .row {
+        position: absolute;
+        margin-left: -80px;
+    }
+
+    #honey2 {
+        margin-top: -405px;
+        margin-left: 330px;
+    }
+
+
+
+    #honey4 {
+        margin-top: -405px;
+        margin-left: 330px;
+
+    }
+
+    #india {
+        margin-top: 500px;
+        width: 650px;
+        margin-left: 10px;
+    }
+
+
+    #indiahead {
+        margin-left: 10px;
+    }
+
+
+    #kerala {
+        margin-top: 200px;
+    }
+
+    iframe {
+        width: 600px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+
+    #kerala .col-md-6 img {
+        width: 600px;
+        margin-left: 30px;
+    }
+
+
+    #service {
+        margin-top: 620px;
+    }
+
+
+
+
+    #service .container .row .col-4 img {
+        margin-left: 30px;
+    }
+
+
+
+
+
+    #form {
+        margin-top: 600px;
+    }
+
+    #footer {
+        margin-top: 250px;
+    }
+
+}     */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
