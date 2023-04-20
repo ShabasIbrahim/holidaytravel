@@ -497,8 +497,9 @@ background-size: cover;
     font-size: 25px;
 }
     .content h1 {
-        font-size: 40px;
-        margin-left: -180px;
+        font-size: 20px;
+         margin-left: -210px;
+        
         margin-top: 150px;
 
     }
@@ -506,7 +507,7 @@ background-size: cover;
 
 
     #international{
-        margin-top: -140px;
+        margin-top: -10px;
     }
 
 
